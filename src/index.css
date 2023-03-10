@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 10px;
+}
+
+.btn button {
+  padding: 12px;
+  border-radius: 8px;
+}
+button {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+button:hover {
+  outline: 1px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.history button {
+  padding: 12px;
+  outline: 1px solid rgb(161, 157, 157);
+  background-color: inherit;
+  color: white;
+  font-weight: 600;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+.box {
+  height: 80vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+}
+.clear {
+  position: absolute;
+  right: 20px;
+  padding: 4px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
