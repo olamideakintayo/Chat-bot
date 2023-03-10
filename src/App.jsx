@@ -84,7 +84,7 @@ function App() {
     // system == generally one initial message defining How we want chat gpt to talk
     const systemMessage = {
       role: "system",
-      content: "Speak with british slangs",
+      content: "",
     };
     const apiRequestBody = {
       model: "gpt-3.5-turbo",
